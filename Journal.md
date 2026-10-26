@@ -15,3 +15,7 @@ In this phase, I created an ArtifactCalculator class to calculate the Stability 
 ## Phase 4
 
 In this phase, I created an ArchiveReport class to display the total number of artifacts and system energy. I used String.format() to display the Universal Cataloging Constant with three decimal places. I also used Double.parseDouble() to convert a string into a double value. I learned that parsing is useful when reading numerical data stored as text. This can help process information from log files and other external sources.
+
+## Phase 5
+
+In this phase, I tested the program using different energy levels to verify the Stability Index calculations. I tested values above, below, and equal to the Universal Cataloging Constant. The program calculated the results correctly, and I did not encounter any major bugs. I also verified that the Archive Report displayed the correct artifact count and formatted values. AI feedback suggested testing different inputs, which helped me confirm that my program works as expected.

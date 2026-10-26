@@ -32,13 +32,21 @@ public class Main {
 
         System.out.println();
 
-        double energyLevel = 105.75;
+        double[] testEnergyLevels = {105.75, 2.0, 3.14159, 0.0};
 
-        double stabilityIndex =
-                ArtifactCalculator.calculateStabilityIndex(energyLevel);
+        System.out.println();
+        System.out.println("=== Stability Index Testing ===");
 
-        System.out.println("Artifact Energy Level: " + energyLevel);
-        System.out.println("Stability Index: " + stabilityIndex);
+        for (double energyLevel : testEnergyLevels) {
+
+            double stabilityIndex =
+                    ArtifactCalculator.calculateStabilityIndex(energyLevel);
+
+            System.out.println("Energy Level: " + energyLevel);
+            System.out.println("Stability Index: "
+                    + String.format("%.3f", stabilityIndex));
+            System.out.println();
+        }
 
         ArchiveReport.displayReport();
     }
