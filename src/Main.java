@@ -39,5 +39,7 @@ public class Main {
 
         System.out.println("Artifact Energy Level: " + energyLevel);
         System.out.println("Stability Index: " + stabilityIndex);
+
+        ArchiveReport.displayReport();
     }
 }

@@ -12,3 +12,6 @@ In this phase, I added a Universal Cataloging Constant using static final. I use
 
 In this phase, I created an ArtifactCalculator class to calculate the Stability Index. I used Math.abs() to find the absolute difference and Math.sqrt() to calculate the square root. I learned that static methods can be called without creating an object. This is useful for calculations that do not depend on specific object data. I also learned that utility methods help keep the code organized and reusable.
 
+## Phase 4
+
+In this phase, I created an ArchiveReport class to display the total number of artifacts and system energy. I used String.format() to display the Universal Cataloging Constant with three decimal places. I also used Double.parseDouble() to convert a string into a double value. I learned that parsing is useful when reading numerical data stored as text. This can help process information from log files and other external sources.
