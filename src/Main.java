@@ -1,5 +1,4 @@
 public class Main {
-    static void main() {
         System.out.println("Hello World!");
     public static void main(String[] args) {
 
@@ -27,6 +26,10 @@ public class Main {
 
         System.out.println("Total Artifacts Registered: "
                 + Artifact.getTotalArtifacts());
+
+        System.out.println();
+        System.out.println("Universal Cataloging Constant: "
+                + Artifact.UNIVERSAL_CATALOGING_CONSTANT);
     }
 }
 }
