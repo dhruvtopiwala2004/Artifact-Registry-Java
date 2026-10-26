@@ -1,5 +1,4 @@
 public class Main {
-        System.out.println("Hello World!");
     public static void main(String[] args) {
 
         Artifact artifact1 = new Artifact("Alien Crystal", 101);
@@ -30,6 +29,15 @@ public class Main {
         System.out.println();
         System.out.println("Universal Cataloging Constant: "
                 + Artifact.UNIVERSAL_CATALOGING_CONSTANT);
+
+        System.out.println();
+
+        double energyLevel = 105.75;
+
+        double stabilityIndex =
+                ArtifactCalculator.calculateStabilityIndex(energyLevel);
+
+        System.out.println("Artifact Energy Level: " + energyLevel);
+        System.out.println("Stability Index: " + stabilityIndex);
     }
-}
 }
